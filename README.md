@@ -1,9 +1,9 @@
-#Music Server
+# Music Server
 This is simple toy music server made in half a week to learn/re-learn some web tools.
 
-![](https://github.com/tineagle/Toy-Music-Server/tree/master/docs/clip.gif)
+![](https://github.com/tineagle/Toy-Music-Server/blob/master/docs/clip.gif)
 
-##File Info
+## File Info
 /scripts/info.py -i srcs -o dest
 
 * Restructures input folders into an output folder.
@@ -30,3 +30,17 @@ This is simple toy music server made in half a week to learn/re-learn some web t
 /server/index.css
 
 * It formats. 👍
+
+## Server Structure
+```
+.
+├── index.css
+├── index.html
+├── index.js
+├── jquery.js
+├── Music
+│   └── Artist
+|       └── Album
+|           └── Song.mp3
+└── music.php
+```
